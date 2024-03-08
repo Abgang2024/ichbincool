@@ -1,0 +1,125 @@
+body {
+    background-color:#f9eeb7cd;
+}
+
+h1 {
+    color:#bb24c0;
+    font-family: 'Lucida Sans';
+}
+
+h2 {
+    color: #1fac32;
+}
+
+a{
+    color:#4caabf;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #a6a6a6;
+}
+
+table {
+    border-style: double;
+    border-color: #1baf2f;
+    color: #5d9164;
+}
+
+#Bild1 {
+    box-shadow: 15px 15px 10px #000000;
+}
+
+#Bild2{
+    border-style: double;
+    border-color: #bb24c0;
+    border-width: 10px;
+}
+
+#Bild3{
+    border-radius: 100%;
+}
+
+img {
+    height: 133px;
+    width: 306px;
+}
+
+header {
+    border: 1px solid #00FF00;
+    border-radius: 20px;
+    background-color: #d4fcd8;
+    margin: 10px; /*Innenabstand: oben rechts, unten, links*/
+    padding: 10px;/*Außenabstand: oben, rechts. unten, links*/
+    text-align: center; /*Inhalt wird mittig ausgerichtet*/
+}
+
+nav {
+    border: 1px solid #a0a0a0;
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+    display: flex; 
+    justify-content: center; 
+}
+
+main {
+    border: 1px solid #d0fad0;
+    border-radius: 20px;
+    background-color: #dbb1ec;
+    margin: 10px;
+    padding: 10px;
+}
+
+section {
+    border: 1px solid #5c5c5c;
+    border-radius: 20px;
+    background-color: #cacaca;
+    margin: 10px;
+    padding: 10px;
+}
+
+aside {
+    border: 1px solid #83adfc;
+    border-radius: 20px;
+    background-color: #a9c8e2;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer {
+    border: 1px solid #a3dbe9;
+    border-radius: 20px;
+    background-color: #faf5f5;
+    margin: 10px;
+    padding: 10px;
+}
+
+#Inhalt {
+    border:none; /*entferntden Rahmen*/
+    width: 99%;
+    height: 370px;
+    margin: 10px;
+}
+
+.Hintergrund {
+        background-color:#dbb1ec;
+}
+
+ 
+ /*Flexbox Formatierung für nav*/
+nav>ul {
+    list-style-type: none; /* Aufzählungspunkte ausblenden */
+    display: flex; /* Flexbox-Container */
+}
+
+nav a {
+    background-color: #dbd3bd87; 
+    text-decoration: none; /* keine Unterstreichung */
+    padding: 10px; /* Abstand im den Link */
+}
+      
+nav a:hover {
+    background-color: #6ab77455;
+}
